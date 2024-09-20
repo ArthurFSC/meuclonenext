@@ -1,0 +1,45 @@
+.sidebar {
+  width: 80px; /* Ajuste a largura da sidebar */
+  background-color: #333;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.option span {
+  margin-top: 5px; /* Espaço entre o ícone e o texto */
+  font-size: 12px; /* Tamanho do texto para caber melhor */
+  color: #fff;
+}
+
+/* Class for the selected (active) option */
+.option.active {
+  background-color: #555; /* Light gray background to indicate selection */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.profile-container .dots {
+  margin-left: 20px; /* Aumenta a distância dos três pontos */
+}
+
+.img {
+  width: 24px;
+  height: 24px;
+}

@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.logo img {
+  width: 25px;
+  height: 25px;
+}
+
+.menuIcon {
+  display: grid;
+  grid-template-columns: repeat(3, 6px);
+  grid-template-rows: repeat(3, 6px);
+  gap: 3px;
+  margin-right: 20px; /* Espaçamento entre o ícone de menu e o logo */
+}
+
+.menuIcon div {
+  width: 4px;  /* Largura reduzida dos pontos */
+  height: 4px; /* Altura reduzida dos pontos */
+  background-color: white;
+  border-radius: 50%;
+}
+
+.searchBar {
+  position: relative;
+  flex: 1;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.searchBar input {
+  width: 100%;
+  padding: 8px 40px 8px 12px;
+  border-radius: 20px;
+  border: none;
+  background-color: #333;
+  color: black;
+  text-align: center;
+}
+
+.searchBar input::placeholder {
+  color: rgb(128, 125, 125);
+}
+
+.searchBar .searchIcon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(128, 125, 125);
+  font-size: 1.2rem;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.moreOptions {
+  display: flex;
+  gap: 5px;
+}
+
+.moreOptions div {
+  width: 4px;  /* Largura reduzida dos pontos */
+  height: 4px; /* Altura reduzida dos pontos */
+  background-color: white;
+  border-radius: 50%;
+}
+
+.account {
+  width: 40px;
+  height: 40px;
+  background-color: #555;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
